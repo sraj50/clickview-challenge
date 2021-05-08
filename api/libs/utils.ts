@@ -16,7 +16,7 @@ export const readData = (file: string, type: "PLAYLIST" | "VIDEO", response: Res
       }
       case "VIDEO": {
         // @ts-ignore
-        response.send(JSON.parse(data.substring(15, data.length-1)))
+        response.send(JSON.parse(data.substring(16, data.length-1)))
       }
       default: return null
     }
