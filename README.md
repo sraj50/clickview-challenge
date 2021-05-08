@@ -4,6 +4,7 @@
 3. `data` - challenge details
 
 ## Client
+- Run `yarn install` to install dependencies
 - Run `yarn start` to start development server on port 3000
 
 ### Implementation Details
@@ -11,6 +12,7 @@
 - Routing between video and playlist pages
 
 ## API
+- Run `yarn install` to install dependencies
 - Run `yarn start` to run server on port 8000
 
 ### Implementation Details
